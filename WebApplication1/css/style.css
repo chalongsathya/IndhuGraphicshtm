@@ -15,7 +15,7 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.7;
-  color: rgba(255, 255, 255, 0.3);
+  color: rgb(255, 255, 255);
   background: #000 url(../images/broken_noise.png) repeat;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
@@ -69,7 +69,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6, figure {
-  color: #000;
+  /*color: #000;*/
   font-family: "Cormorant Garamond", Georgia, serif;
   font-weight: 400;
   margin: 0 0 20px 0;
@@ -1549,19 +1549,19 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .btn {
-  margin-right: 4px;
-  margin-bottom: 4px;
-  font-family: "Cormorant Garamond", Georgia, serif;
-  font-size: 16px;
-  font-weight: 400;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  -ms-border-radius: 30px;
-  border-radius: 30px;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-  padding: 8px 20px;
+    margin-right: 4px;
+    margin-bottom: 3px;
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-size: 16px;
+    font-weight: 400;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    padding: 8px 20px;
 }
 .btn.btn-md {
   padding: 8px 20px !important;
@@ -1604,6 +1604,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background: #5cb85c;
   color: #fff;
   border: 2px solid #5cb85c;
+  font-weight:800;
 }
 .btn-success:hover, .btn-success:focus, .btn-success:active {
   background: #4cae4c !important;
@@ -1620,9 +1621,10 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .btn-info {
-  background: #5bc0de;
-  color: #fff;
-  border: 2px solid #5bc0de;
+    background: #5bc0de;
+    color: #fff;
+    font-weight: 800;
+    border: 2px solid #5bc0de;
 }
 .btn-info:hover, .btn-info:focus, .btn-info:active {
   background: #46b8da !important;
@@ -1639,9 +1641,10 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .btn-warning {
-  background: #f0ad4e;
-  color: #fff;
-  border: 2px solid #f0ad4e;
+    background: #f0ad4e;
+    color: #fff;
+    font-weight: 800;
+    border: 2px solid #f0ad4e;
 }
 .btn-warning:hover, .btn-warning:focus, .btn-warning:active {
   background: #eea236 !important;
@@ -1658,9 +1661,10 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .btn-danger {
-  background: #d9534f;
-  color: #fff;
-  border: 2px solid #d9534f;
+    background: #d9534f;
+    color: #fff;
+    font-weight: 800;
+    border: 2px solid #d9534f;
 }
 .btn-danger:hover, .btn-danger:focus, .btn-danger:active {
   background: #d43f3a !important;

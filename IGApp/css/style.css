@@ -69,7 +69,6 @@ p {
 }
 
     p:hover, p:focus, p:active {
-        font-size: 20px !important;
         color: rgb(213,213,213) !important;
         background-color: rgb(45,45,48);
     }

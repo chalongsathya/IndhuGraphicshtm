@@ -68,6 +68,12 @@ p {
   font-style: 18px;
 }
 
+    p:hover, p:focus, p:active {
+        font-size: 20px !important;
+        color: rgb(213,213,213) !important;
+        background-color: rgb(45,45,48);
+    }
+
 h1, h2, h3, h4, h5, h6, figure {
   /*color: #000;*/
   font-family: "Cormorant Garamond", Georgia, serif;

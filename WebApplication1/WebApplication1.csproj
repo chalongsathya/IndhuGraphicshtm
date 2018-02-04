@@ -24,6 +24,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -66,6 +67,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="..\index.html">
+      <Link>index.html</Link>
+    </Content>
+    <Content Include="Index1.html" />
+    <Content Include="index - Copy.html" />
     <Content Include="packages.config" />
     <Content Include="css\.DS_Store" />
     <Content Include="css\bootstrap.css.map" />
@@ -204,7 +210,7 @@
     <Content Include="images\img_sm_1.jpeg" />
     <Content Include="images\loader.gif" />
     <Content Include="images\person_1.jpg" />
-    <Content Include="index.html" />
+    <Content Include="indexWebApp.html" />
     <Content Include="js\bootstrap-datetimepicker.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\jquery.easing.1.3.js" />
